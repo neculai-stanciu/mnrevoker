@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: ro.stit
+---
+testFramework: junit
+sourceLanguage: java

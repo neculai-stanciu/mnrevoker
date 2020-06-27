@@ -1,0 +1,13 @@
+micronaut:
+  application:
+    name: mnrevoker
+certificate-authority:
+  caIndexFile: index.txt
+  refreshSeconds: 10
+  crlFiles:
+    - name: "crl.pem"
+      filePath: crl/crl.pem
+ocsp-responder:
+  keyStorePath: ocsp/ocsp-signing.jks
+  keyStorePassphrase: notsecret
+  keyStoreAlias: ocsp-signing
